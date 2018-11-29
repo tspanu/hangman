@@ -1,5 +1,6 @@
 import Hangman from './scripts/hangman'
 import { getPuzzle } from './scripts/requests'
+import '@babel/polyfill'
 import './styles/index.scss'
 
 const puzzleEl = document.querySelector('#puzzle')
